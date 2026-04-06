@@ -20,7 +20,7 @@ The purpose of this lab activity is to familiarize the students with SFML concep
 
 The students will be required to do the following two steps for extra credit:
 
-1. Review the given code given in the "main_original.cpp" file and then abstract the code, slightly, into three separate functions: `loadCardTextures()`, `buildDeck()`, and `setLayout()`. The purpose of this is to teach the students how to identify various parts of the SFML code and understand how to abstract it without breaking it (more on that later).
+1. Review the given code given in the 'main.cpp' file and then abstract the code, slightly, into three separate functions: `loadCardTextures()`, `buildDeck()`, and `setLayout()`. The purpose of this is to teach the students how to identify various parts of the SFML code and understand how to abstract it without breaking it (more on that later).
 2. Create one of the following features in game: time elapsed display, strike counter, or percent completion tracker.
 
 
