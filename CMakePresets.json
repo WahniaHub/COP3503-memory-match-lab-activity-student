@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "mingw",
+      "displayName": "MinGW",
+      "description": "Configure with the MinGW g++ toolchain",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+        "CMAKE_C_COMPILER": "C:/ProgramData/mingw64/mingw64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/ProgramData/mingw64/mingw64/bin/g++.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "mingw",
+      "configurePreset": "mingw"
+    }
+  ]
+}

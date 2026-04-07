@@ -18,4 +18,4 @@ add_executable(SFML_EC main.cpp
 target_compile_features(SFML_EC PRIVATE cxx_std_17)
 target_link_libraries(SFML_EC PRIVATE SFML::Graphics)
 
-set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT main)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT SFML_EC)
